@@ -72,12 +72,12 @@ const onBtExport = useCallback(() => {
     <div style={containerStyle}>
       <div className="container">
         <div>
-          {/* <button
+         <button
             onClick={onBtExport}
             style={{ marginBottom: '5px', fontWeight: 'bold' }}
           >
             Export to Excel
-          </button> */}
+          </button>
         </div>
         <div className="grid-wrapper">
           <div style={gridStyle} >
