@@ -59,9 +59,9 @@ const GridExample = () => {
     ];
   }, []);
 
-  const onBtExport = useCallback(() => {
-    gridRef.current.api.exportDataAsExcel();
-  }, []);
+ // const onBtExport = useCallback(() => {
+ //   gridRef.current.api.exportDataAsExcel();
+ // }, []);
 
   return (
     <div style={containerStyle}>
